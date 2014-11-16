@@ -1,6 +1,23 @@
-# 2012-07-23 Antti Palosaari <crope@iki.fi>
+# 2014-04-18 Antti Palosaari <crope@iki.fi>
 # generated from http://www.digita.fi/kuluttajat/tv/nakyvyysalueet/kanavanumerot_ja_taajuudet
-T 634000000 8MHz 2/3 NONE QAM64 8k 1/8 NONE
-T 770000000 8MHz 2/3 NONE QAM64 8k 1/8 NONE
-T 522000000 8MHz 2/3 NONE QAM64 8k 1/8 NONE
-T 658000000 8MHz 2/3 NONE QAM64 8k 1/8 NONE
+
+[Siilinjarvi]
+	DELIVERY_SYSTEM = DVBT
+	FREQUENCY = 634000000
+	BANDWIDTH_HZ = 8000000
+
+[Siilinjarvi]
+	DELIVERY_SYSTEM = DVBT
+	FREQUENCY = 770000000
+	BANDWIDTH_HZ = 8000000
+
+[Siilinjarvi]
+	DELIVERY_SYSTEM = DVBT
+	FREQUENCY = 522000000
+	BANDWIDTH_HZ = 8000000
+
+[Siilinjarvi]
+	DELIVERY_SYSTEM = DVBT
+	FREQUENCY = 658000000
+	BANDWIDTH_HZ = 8000000
+

@@ -1,26 +1,81 @@
-# UK, Oxford
+#----------------------------------------------------------------------------------------------
+# Auto-generated from:
+# <http://www.digitaluk.co.uk/coveragechecker/main/tradeexport/OX3 9SS/NA/0/>
+#----------------------------------------------------------------------------------------------
+# location and provider: UK, Oxford
+# date (yyyy-mm-dd)    : 2014-03-25
 #
-# Post-Switchover, found from a mixture of w_scan, trial+error
-# and http://www.ukfree.tv/txdetail.php?a=SP567105
+#----------------------------------------------------------------------------------------------
+[C53+ BBC A]
+	DELIVERY_SYSTEM = DVBT
+	FREQUENCY = 730167000
+	BANDWIDTH_HZ = 8000000
+	CODE_RATE_HP = 2/3
+	CODE_RATE_LP = NONE
+	MODULATION = QAM/64
+	TRANSMISSION_MODE = 8K
+	GUARD_INTERVAL = 1/32
+	HIERARCHY = NONE
+	INVERSION = AUTO
 
-# Local Channels, C51, details still TBA
-T 713833000 8MHz 2/3 NONE QAM64 2k 1/32 NONE
+[C60- D3&4]
+	DELIVERY_SYSTEM = DVBT
+	FREQUENCY = 785833000
+	BANDWIDTH_HZ = 8000000
+	CODE_RATE_HP = 2/3
+	CODE_RATE_LP = NONE
+	MODULATION = QAM/64
+	TRANSMISSION_MODE = 8K
+	GUARD_INTERVAL = 1/32
+	HIERARCHY = NONE
+	INVERSION = AUTO
 
-# PSB1 BBC-A, C53+. Apparently 730.2 but actually looks to be 730.167
-T 730167000 8MHz 2/3 NONE QAM64 8k 1/32 NONE
+[C50 SDN]
+	DELIVERY_SYSTEM = DVBT
+	FREQUENCY = 706000000
+	BANDWIDTH_HZ = 8000000
+	CODE_RATE_HP = 3/4
+	CODE_RATE_LP = NONE
+	MODULATION = QAM/64
+	TRANSMISSION_MODE = 8K
+	GUARD_INTERVAL = 1/32
+	HIERARCHY = NONE
+	INVERSION = AUTO
 
-# ArqB (COM6), C55, 746.0
-T 746000000 8MHz 2/3 NONE QAM64 8k 1/32 NONE
+[C59- ARQ A]
+	DELIVERY_SYSTEM = DVBT
+	FREQUENCY = 777833000
+	BANDWIDTH_HZ = 8000000
+	CODE_RATE_HP = 3/4
+	CODE_RATE_LP = NONE
+	MODULATION = QAM/64
+	TRANSMISSION_MODE = 8K
+	GUARD_INTERVAL = 1/32
+	HIERARCHY = NONE
+	INVERSION = AUTO
 
-# PSB3 BBC-B, C57, 256QAM DVB-T2, TBA
-# May well be wrong, needs a DVB-T2 tuner to be sure!
-T 762000000 8MHz 2/3 NONE QAM256 8k 1/32 NONE
+[C55 ARQ B]
+	DELIVERY_SYSTEM = DVBT
+	FREQUENCY = 746000000
+	BANDWIDTH_HZ = 8000000
+	CODE_RATE_HP = 3/4
+	CODE_RATE_LP = NONE
+	MODULATION = QAM/64
+	TRANSMISSION_MODE = 8K
+	GUARD_INTERVAL = 1/32
+	HIERARCHY = NONE
+	INVERSION = AUTO
 
-# ArqA (COM5), C59-, Apparently 777.8 but actually looks to be 777.833
-T 777833000 8MHz 2/3 NONE QAM64 8k 1/32 NONE
+[C57 BBC B HD]
+	DELIVERY_SYSTEM = DVBT2
+	FREQUENCY = 762000000
+	BANDWIDTH_HZ = 8000000
+	CODE_RATE_HP = 2/3
+	CODE_RATE_LP = NONE
+	MODULATION = QAM/256
+	TRANSMISSION_MODE = 32K
+	GUARD_INTERVAL = 1/128
+	HIERARCHY = NONE
+	STREAM_ID = 0
+	INVERSION = AUTO
 
-# PSB2, D3+4, C60-, Apparently 785.0 but actually looks to be 785.833
-T 785833000 8MHz 2/3 NONE QAM64 8k 1/32 NONE
-
-# SDN (COM4), C62, 802.0
-T 802000000 8MHz 2/3 NONE QAM64 8k 1/32 NONE
